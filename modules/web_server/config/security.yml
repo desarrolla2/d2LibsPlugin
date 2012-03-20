@@ -1,0 +1,11 @@
+###################################################################
+# This file is part of the sinersis proyect.
+# (c) 2010 RADMAS S.L. Rad(+) Technologies
+# (c) 2010 SINERSIS ESTRATEGIAS DE DISTRIBUCIÓN, S.A.
+#
+# For the full copyright and license information, please view the
+# LICENSE file that was distributed with this source code.
+###################################################################
+default:
+  is_secure: false  
+  

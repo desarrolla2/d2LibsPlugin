@@ -1,0 +1,7 @@
+log/*
+cache/*
+lib/*/doctrine/base
+lib/*/doctrine/*Plugin/base
+nbproject/*
+.svn
+

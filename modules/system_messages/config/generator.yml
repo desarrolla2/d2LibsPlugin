@@ -1,0 +1,27 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           SystemLogger
+    theme:                 radmas
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          system_logger
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+        display:        [ Brands, Territorials, logger_id, logger_class, name, level, text, created_at ]
+        object_actions: []
+        actions:        []
+        batch_actions:  []
+      filter:
+        display:        [ brand_id, territorial_id, logger_class ]
+      form:
+        display: [id]
+      edit:    ~
+      new:     ~
